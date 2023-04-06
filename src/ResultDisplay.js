@@ -14,7 +14,7 @@ const ResultDisplay = (props) => {
             <tbody className="results-inline" key={index}>
               <tr>
                 <td>{element.name}</td>
-                <td>{element.charge}</td>
+                <td>$ {element.charge}</td>
               </tr>
             </tbody>
         ))
